@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 2em 1em;
+        }
+
+        .main-image {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 1.5em;
+        }
+
+        .message {
+            text-align: center;
+        }
+
+        #code {
+            outline: none;
+            border: none;
+            font-size: 2em;
+            text-align: center;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.212);
+            padding-bottom: 0.2em;
+        }
+
+        #code:focus {
+            border-bottom: 1px solid black;
+        }
+
+        #download_btn {
+            border: none;
+            outline: none;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 1.2em;
+            background-color: black;
+            padding: 0.5em 0;
+            border-radius: 2em;
+            color: white;
+            font-size: 1.2em;
+            letter-spacing: 0.2em;
+            transition: all .2s ease;
+        }
+
+        #download_btn:hover {
+            background-color: rgb(70, 70, 70);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-image">
+        <img src="../main.png" alt="">
+    </div>
+    <h1 class="title">File Ninja</h1>
+    <p class="message"></p>
+    <input type="text" name="keycode" id="code" placeholder="Enter your code" spellcheck="false">
+    <button id="download_btn">DOWNLOAD</button>
+</body>
+<script src="app.js"></script>
+
+</html>

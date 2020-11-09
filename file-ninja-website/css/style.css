@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+body {
+  padding: 2em 1em;
+  font-family: "Roboto", sans-serif;
+}
+
+.h1 {
+  margin-top: 0;
+}
+
+.main-image {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.message {
+  text-align: center;
+}
+
+#code {
+  outline: none;
+  border: none;
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.212);
+  padding-bottom: 0.2em;
+}
+
+#code:focus {
+  border-bottom: 1px solid black;
+}
+
+#download_btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 450px;
+  margin-top: 2em;
+  background-color: black;
+  padding: 0.5em 0;
+  border-radius: 2em;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  transition: all 0.2s ease;
+}
+
+#download_btn:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+@media (max-width: 500px) {
+  #code{
+    font-size: 20px;
+    width: 85%;
+  }
+  #download_btn {
+    width: 85%;
+  }
+}
