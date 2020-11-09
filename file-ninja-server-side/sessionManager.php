@@ -25,5 +25,4 @@ function random_session_id($length = 6){
     }
     return $randomSession;
 }
-
 ?>
