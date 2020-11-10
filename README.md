@@ -41,7 +41,7 @@ The uploaded files will be automatically deleted from our server after 30 minute
 
 - UI Design [`file-ninja-UI-design`] - **[Adobe XD](https://www.adobe.com/products/xd.html)**
 - Mobile App (Android + iOS) [`file-ninja-app`] - **[Flutter](https://flutter.dev/)**
-- Website [`file-ninja-website`] & Chrome Extension [`file-ninja-chrome-extension`] - **HTML**, **JavaScript**
+- Website [`file-ninja-website`] & Chrome Extension [`file-ninja-chrome-extension`] - **HTML**, **CSS**, **JavaScript**
 - Server-side [`file-ninja-server-side`] - **[PHP](https://php.net)**
 
 To delete files after 30 minutes, we have scheduled a Cron Job that executes a cleanup script on the server every minute. Also, if the images are larger than A4 size, they are compressed to fit the page when the download is triggered.
