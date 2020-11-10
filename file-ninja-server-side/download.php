@@ -72,7 +72,7 @@ function compressIMG($file, $width, $height) {
     $output = imagecreatetruecolor($width, $height);
     imagecopyresampled($output, $image, 0, 0, 0, 0, $width, $height, imagesx($image), imagesy($image));
     
-    $newFilePath = "images/upload/" . pathinfo($file, PATHINFO_FILENAME) . "compressed." . $extension;
+    $newFilePath = "images/upload/" . pathinfo($file, PATHINFO_FILENAME) . "compressed" . ".jpg";
     imagejpeg($output, $newFilePath, 100); 
     return $newFilePath;
 }
