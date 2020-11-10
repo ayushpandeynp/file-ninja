@@ -23,10 +23,9 @@ while($row = mysqli_fetch_assoc($query)){
         }
 
         $fileNameString = pathinfo($filePath, PATHINFO_FILENAME);
-        $fileExtension = pathinfo($filePath, PATHINFO_EXTENSION);
     
-        $compressed1 = "images/upload/" . $fileNameString . "compressed" . "." . $fileExtension;
-        $compressed2 = "images/upload/" . $fileNameString . "compressedcompressed" . "." . $fileExtension;
+        $compressed1 = "images/upload/" . $fileNameString . "compressed" . "." . "jpg";
+        $compressed2 = "images/upload/" . $fileNameString . "compressedcompressed" . "." . "jpg";
 
         if(file_exists($compressed1)){
             unlink($compressed1);
