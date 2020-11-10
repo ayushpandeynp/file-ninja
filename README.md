@@ -41,3 +41,18 @@ The uploaded files will be automatically deleted from our server after 30 minute
 - Server-side [`file-ninja-server-side`] - **[PHP](https://php.net)**
 
 To delete files after 30 minutes, we have scheduled a Cron Job that executes a cleanup script on the server every minute.
+
+### Challenges
+For the best experience, the app needs to communicate with the server as fast as possible. Although the current server we've set up has a good response time, we need to properly plan for scalability. In addition, we will require enough storage for the files to be uploaded without errors. Therefore, we are looking forward to setting up a dedicated server on the cloud (Amazon AWS or Microsoft Azure) once we start receiving enough users.
+
+### The Future of File Ninja
+As this is the first build of File Ninja, we're clearly not sure if our users will find it helpful or will prefer any other way around this problem. So, if we reach a good amount of users, we see the following prospects at the moment:
+
+- Support for other file formats rather than just images
+- Support for very large files
+- Keeping track of where the files were accessed
+- Local file sharing
+- File sharing between multiple mobile devices
+- A Desktop application for file downloads
+
+Thank you!
