@@ -38,7 +38,6 @@ if (move_uploaded_file($image["tmp_name"], $targetPath)) {
 
 $image_url = $directory_url . $fileName;
 
-$success = 0;
 if($uploadStatus == 1){
     require_once("connect.php");
     $queryString = "INSERT INTO files (token_id, file_url, timestamp) VALUES('".$token_id."', '".$image_url."', NOW())";
