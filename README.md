@@ -19,7 +19,7 @@ File Ninja helps you:
 
 ### Process
 
-We have tried to make the process as simple as possible, so we've created a mobile app that instantly uploads selected pictures to the server and gives you a unique access code. To download those files on the computer, you need to go to [fileninja.tk](https://fileninja.tk) and enter the access code.
+We have tried to make the process as simple as possible, so we've created a mobile app that instantly uploads selected pictures to the server and gives you a unique access code. To download those files on the computer, you need to use the chrome extension or simply go to [fileninja.tk](https://fileninja.tk) and enter your access code.
 
 The A4 sized PDF file with all the images will be automatically created and a download will be triggered. You can now use the downloaded PDF file to submit to your instructor or share it wherever you want.
 
